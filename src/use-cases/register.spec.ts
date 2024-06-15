@@ -25,7 +25,7 @@ describe('Register Use Case', () => {
         const { user } = await registerUseCase.execute({
             name: 'John Doe',
             email: 'john@doe.com',
-            password: '123456'
+            password: '1234567'
         })
 
         const isPasswordCorrectlyHashed = await compare('123456', user.password_hash)
