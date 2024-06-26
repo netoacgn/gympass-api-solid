@@ -18,7 +18,7 @@ GymPass style app.
 ## RNs (Requisitos de negócio)
 - [x] O usuário não deve poder se cadastrar com um email já existente;
 - [x] O usuário não pode fazer 2 (dois) check-ins no mesmo dia;
-- [ ] O usuário não pode fazer check-in se não estiver a 100m (cem metros) da academia;
+- [x] O usuário não pode fazer check-in se não estiver a 100m (cem metros) da academia;
 - [ ] O check-in deve ser validado até 20 minutos após ser criado;
 - [ ] O check-in deve ser validado apenas por administradores;
 - [ ] A academia dever ser criada apenas por administradores;
