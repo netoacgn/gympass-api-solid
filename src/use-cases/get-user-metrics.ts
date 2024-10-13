@@ -10,7 +10,7 @@ interface GetUserMetricsUseCaseResponse {
 
 export class GetUserMetricsUseCase {
     constructor(
-        private checkInsRepository: CheckInsRepository,
+        private checkInsRepository: CheckInsRepository
     ) { }
 
     async execute({
